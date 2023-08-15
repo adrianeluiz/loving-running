@@ -40,7 +40,22 @@ h1{
     letter-spacing: 2px;
     color: 252525;
 }
-/* Main content */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+    }
+/* need to fix the bottom home*/
+    #menu > li {
+        margin-bottom: 1em;
+            }
+
+    .active {
+        border-bottom: 1px solid #3a3a3a;
+    }
+
+    /* Main content */
 main {
     background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
